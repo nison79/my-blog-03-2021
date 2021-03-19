@@ -1,5 +1,13 @@
-import React from "react"
+import React from 'react'
+import Posts from '../components/Posts'
 
-export default function Home() {
-  return <div>Hello world!</div>
+const indexPage = () => {
+  return (
+    <div>
+      <h1>Home</h1>
+      <Posts />
+    </div>
+  )
 }
+
+export default indexPage
